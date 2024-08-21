@@ -15,5 +15,8 @@
 
 RCT_EXTERN_METHOD(startLiveActivity)
 RCT_EXTERN_METHOD(stopLiveActivity)
+RCT_EXTERN_METHOD(observePushToStartToken:(NSString *)consumerId)
+RCT_EXTERN_METHOD(getPushToStartToken:(NSString *)consumerId)
+RCT_EXTERN_METHOD(observeActivityPushToken)
 
 @end
